@@ -1,0 +1,44 @@
+[
+  {
+    "Name": "stars",
+    "Blurb": "The stars you see in the night sky are actually balls of fire like our sun, though they’re much father away.",
+    "Mass": "1.59e29 to 2.98e32",
+    "Radius": "10 to 1.043e8 km",
+    "Temp": "7126 to 9726 C"
+  },
+  {
+    "Name": "kepler51d",
+    "Blurb": "Outside our solar system there are trillions more planets, like this one: Kepler-51 d, one of the planets discovered by the Kepler Space Telescope.",
+    "Mass": "4.54e25 kg",
+    "Radius": "60473 km",
+    "Temp": "107.85 C"
+  },
+  {
+    "Name": "white dwarf",
+    "Blurb": "These glowing white stars are actually what stars like our sun become after they’ve used up all of their nuclear energy.",
+    "Mass": "2.98e29 to 2.39e30 kg",
+    "Radius": "5565.6 to 13,914 km",
+    "Temp": "7726 to 39,726.85 C"
+  },
+  {
+    "Name": "neutron star",
+    "Blurb": "A neutron star is the collapsed core of a supergiant star, an especially bright and large star, created after a supernova explosion.",
+    "Mass": "2.78e30 kg",
+    "Radius": "10 km",
+    "Temp": "999,982.2 C"
+  },
+  {
+    "Name": "black hole",
+    "Blurb": "A region where gravity is so strong, nothing - not even light - can escape it. The point of no escape from a black hole is called the event horizon.",
+    "Mass": "5.97e30 to 1.99e31 kg",
+    "Radius": "9.8 to 6.28e10 km",
+    "Temp": "-273.15 C"
+  },
+  {
+    "Name": "red dwarf",
+    "Blurb": "Though they can’t be easily observed due to their low light, red dwarfs are the most common kind of star in the Milky Way.",
+    "Mass": "1.6e29 to 9.9e29 kg",
+    "Radius": "More than 62613 km",
+    "Temp": "2226 - 3726 C"
+  }
+]

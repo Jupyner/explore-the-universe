@@ -1,0 +1,93 @@
+[
+  {
+    "Name": "sun",
+    "Blurb": "The center of Earth’s orbit and the star of our solar system.",
+    "Mass": "1.99e30 kg",
+    "Radius": "696,342 km",
+    "Temp": "5504.85 C"
+  },
+  {
+    "Name": "mercury",
+    "Blurb": "The smallest planet in the solar system and the closest planet to the sun.",
+    "Mass": "3.30e23 kg",
+    "Radius": "2439.7 km",
+    "Temp": "-180 to 430 C"
+  },
+  {
+    "Name": "venus",
+    "Blurb": "The second planet from the sun and often called the Earth’s “sister planet” due to their similarities in size and mass.",
+    "Mass": "4.87e24 kg",
+    "Radius": "6051.8 km",
+    "Temp": "475 C"
+  },
+  {
+    "Name": "earth",
+    "Blurb": "There’s no doubt you’re familiar with this one. 71% water and populated by billions of humans, the Earth is certainly unique.",
+    "Mass": "5.97e24 kg",
+    "Radius": "6371.0 km",
+    "Temp": "-89.2 to 56.7 C"
+  },
+  {
+    "Name": "mars",
+    "Blurb": "Mars is also known as the Red Planet due to the iron oxide on its surface.",
+    "Mass": "6.42e23 kg",
+    "Radius": "3389.5 km",
+    "Temp": "-143 to 35 C"
+  },
+  {
+    "Name": "jupiter",
+    "Blurb": "A gas giant and the largest planet in our solar system. It’s famous “Red Spot” is actually a huge storm.",
+    "Mass": "1.90e27 kg",
+    "Radius": "69,911 km",
+    "Temp": "-110 C"
+  },
+  {
+    "Name": "saturn",
+    "Blurb": "It’s famous rings are made out of ice particles, rock debris, and dust.",
+    "Mass": "5.68e26 kg",
+    "Radius": "58,232 km",
+    "Temp": "-300 to -122 C"
+  },
+  {
+    "Name": "uranus",
+    "Blurb": "Uranus is unique in our solar system because it’s axis of rotation is sideways.",
+    "Mass": "8.68e25 kg",
+    "Radius": "25,362 km",
+    "Temp": "-195 C"
+  },
+  {
+    "Name": "neptune",
+    "Blurb": "Though Neptune (and Uranus) are considered gas giants, some also call them ice giants due to their high composition of ices.",
+    "Mass": "1.02e26 kg",
+    "Radius": "24,622 km",
+    "Temp": "-200 C"
+  },
+  {
+    "Name": "moon",
+    "Blurb": "The Earth isn’t the only planet with a moon, but it’s the only one that man has set foot on.",
+    "Mass": "7.34e22 kg",
+    "Radius": "1737.4 km",
+    "Temp": "-173 to 127 C"
+  },
+  {
+    "Name": "asteroid",
+    "Blurb": "The asteroid belt is between Jupiter and Mars and contains millions of asteroids.",
+    "Mass": "varies",
+    "Radius": "10m to 530km",
+    "Temp": "about -73 C"
+  },
+  {
+    "Name": "comet",
+    "Blurb": "The most famous comet is Halley’s Comet, which is only visible from Earth every 75 years.",
+    "Mass": "varies",
+    "Radius": "up to 30km",
+    "Temp": "about -70 C"
+  },
+  {
+    "Name": "pluto",
+    "Blurb": "While it’s not a planet, nine dwarf planets like Pluto also help make up our solar system.",
+    "Mass": "1.30e22 kg",
+    "Radius": "1,188.3 km",
+    "Temp": "-229 C"
+  }
+]

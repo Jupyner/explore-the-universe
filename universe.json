@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "supercluster",
+    "Blurb": "The Laniakea Supercluster is a group of around 100,000 galaxies, including the Milky Way where we live. It’s name means “immense heaven”. It has a mass of 100,000 times our galaxy and stretches out for 520 million light years."
+  },
+  {
+    "Name": "big bang",
+    "Blurb": "While not a physical object, the big bang theory is a major part of our galaxy. It’s one of the most widely accepted theories on how the universe came to exist."
+  },
+  {
+    "Name": "dark matter",
+    "Blurb": "We can’t see it or observe it, but dark matter makes up about 85% of the universe. It doesn’t absorb, reflect, or emit light, making it very difficult to detect. Simulations have revealed that it may look like these halos."
+  }
+]

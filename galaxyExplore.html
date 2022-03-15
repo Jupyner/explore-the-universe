@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Explore the Galaxy</title>
+        <link rel="icon" type="image/png" href="icon.png"/>
+        <link rel="stylesheet" href="main.css"></style>
+        <link rel="stylesheet" href="responsive.css"></style>
+        <!--Google fonts-->
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="jquery-csv.js"></script>
+        <script src="main.js"></script> 
+        <script src="require.js"></script> 
+
+        <style>
+            img#suns {height: 40%; margin-top: 7%;}
+            img#kepler51d {height: 10%;}
+            img#white_dwarf {height: 15%;}
+            img#neutron_star {height: 8%;}
+            img#black_hole {height: 25%; margin-top: 5%;}
+            img#red_dwarf {height: 13%;}
+
+            div.explore-icon {cursor: context-menu;}
+            img.explore-icon {cursor: pointer;}
+
+        </style>
+    </head>
+    <body>
+        <div class="nav"> <!--Navigation bar-->
+            <nav>
+                <a class="nav" href="index.html">Home</a> 
+                <a class="nav" href="explore.html">Explore</a> 
+                <a class="nav" onmouseleave="hideNav()" onclick="showNav()">Learn<img id="arrow" src="arrow.png"></a> 
+                    <div id = "dropdown" onmouseover="showNav()"onmouseleave="hideNav()">
+                        <a href="solarSystemLearn.html">The Solar System</a>
+                        <a href="galaxyLearn.html">The Galaxy</a>
+                        <a href="universeLearn.html">The Universe</a>
+                    </div>
+                <a class="nav" href="about.html">About</a>
+            </nav>
+        </div>
+        <div class="bg" id="explorePage">
+            <h1 class = "title" style="padding-top: 3%;">The Milky Way</h1>
+            <p class = "text blurb">
+                Despite its name, the Milky Way has nothing to do with dairy. The Milky Way is the galaxy<br>
+                 that contains our solar system and many others. In fact, it contains 100-400 billion <br>
+                stars and has a radius of over 100,000 light years. 
+                <br><br>(Scroll down, hover over an item to see its profile, and click to see all of its information)
+            <!-- <p id="scroll">Scroll down</p>
+            <img src="scroll.png" id="scroll"> -->
+            <div class = "explore-icon" id="solarSystemExplore">
+                <!-- Stars -->
+                <img class = "explore-icon" id="stars">
+                <!-- Kepler51d -->
+                <img class = "explore-icon" id="kepler51d">
+                <!-- White Dwarf -->
+                <img class = "explore-icon" id="white_dwarf">
+                <!-- Neutron star -->
+                <img class = "explore-icon" id="neutron_star">
+                <!-- Black hole -->
+                <img class = "explore-icon" id="black_hole">
+                <!-- Red dwarf -->
+                <img class = "explore-icon" id="red_dwarf">
+            </div>
+            <div class = "tooltip" id="tool" onmouseleave="hideTip()" onmouseover="showTip(this)">
+                <img id="tip">
+                <p id="planet">Name</p>
+                <p id="textTip">About</p>
+                <p class="sml" id="mass">Mass</p>
+                <p class="sml" id="radius">Radius</p>
+                <p class="sml" id="temp">Temp</p>
+            </div>
+        </div>
+    </body>
+    <script>
+
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > (30)) {
+                $('img#scroll').addClass('invisible');
+                $('p#scroll').addClass('invisible');
+            } else {
+                $('img#scroll').removeClass('invisible');
+                $('p#scroll').removeClass('invisible');
+            }
+        });
+
+        elements = document.querySelectorAll("img.explore-icon");
+
+        for (i of elements) {
+            i.addEventListener('mouseout', function() {hideTip();});
+            i.addEventListener('mouseover', function() {showTip(this);});
+            i.addEventListener('click', function() {goTo(this,'galaxyLearn');});
+            i.setAttribute("src","galaxy/" + i.id.replace("_"," ") + ".png");
+        }
+
+    </script>
+</html>

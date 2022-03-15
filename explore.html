@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Explore the Universe - Explore</title>
+        <link rel="icon" type="image/png" href="icon.png"/>
+        <link rel="stylesheet" href="main.css"></style>
+        <link rel="stylesheet" href="responsive.css"></style>
+        <!--Google fonts-->
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="main.js"></script> 
+    </head>
+    <body>
+        <div class="nav"> <!--Navigation bar-->
+            <nav>
+                <a class="nav" href="index.html">Home</a> 
+                <a class="nav" href="explore.html">Explore</a> 
+                <a class="nav" onmouseleave="hideNav()" onclick="showNav()">Learn<img id="arrow" src="arrow.png"></a> 
+                    <div id = "dropdown" onmouseover="showNav()"onmouseleave="hideNav()">
+                        <a href="#">The Solar System</a>
+                        <a href="#">The Galaxy</a>
+                        <a href="#">The Universe</a>
+                    </div>
+                <a class="nav" href="about.html">About</a>
+            </nav>
+        </div>
+        <div class="bg" id="explore">
+            <h1 class = "title" style="padding-top: 3%;">Let's Explore</h1>
+            <h2 class = "title">Where should we get started?</h2>
+            <div class = "explore-icon" onclick="window.location.assign('solarSystemExplore.html')" onmouseover="glow('solarsystem')" onmouseout="unglow('solarsystem')">
+                <h2 class = "overlay">The Solar System</h2>
+                <img class = "explore-icon" id="solarsystem" src="solar system/orbit.png"/>
+            </div>
+            <div class = "explore-icon" onclick="window.location.assign('galaxyExplore.html')" onmouseover="glow('galaxy')" onmouseout="unglow('galaxy')">
+                <h2 class = "overlay">The Milky Way</h2>
+                <img class = "explore-icon" id="galaxy" src="galaxy.png"/>
+            </div>
+            <div class = "explore-icon" onclick="window.location.assign('universeExplore.html')" onmouseover="glow('universe')" onmouseout="unglow('universe')">
+                <h2 class = "overlay">The Universe</h2>
+                <img class = "explore-icon" id="universe" src="universe/supercluster.png"/>
+            </div>
+            
+        </div>
+    </body>
+</html>
